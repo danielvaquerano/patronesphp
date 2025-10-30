@@ -1,0 +1,83 @@
+
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    margin: 0; 
+    padding: 40px; 
+    background-color: #f4f4f4; 
+    color: #333;
+}
+.container { 
+    max-width: 800px; 
+    margin: 0 auto; 
+    background: #fff; 
+    padding: 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); 
+}
+h1 { 
+    color: #2c3e50; 
+    text-align: center; 
+    margin-bottom: 30px; 
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 10px;
+}
+h2 {
+    color: #3498db;
+    font-size: 1.5em;
+    border-left: 5px solid #3498db;
+    padding-left: 10px;
+}
+.ejercicios-grid { 
+    display: grid; 
+    gap: 20px; 
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+}
+.ejercicio-btn {
+    display: block;
+    padding: 15px;
+    background-color: #2ecc71; /* Verde más atractivo */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+.ejercicio-btn:hover {
+    background-color: #27ae60;
+    transform: translateY(-2px);
+}
+
+.resultado { 
+    border: 2px solid #3498db; /* Borde de color */
+    padding: 20px; 
+    margin-top: 25px; 
+    background-color: #ecf0f1; /* Fondo claro */
+    border-radius: 8px;
+}
+.resultado p {
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.resultado ul {
+    list-style: none;
+    padding-left: 0;
+}
+.resultado li {
+    background: #fff;
+    margin: 5px 0;
+    padding: 8px 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+.volver {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #e74c3c;
+    text-decoration: none;
+    font-weight: bold;
+}
+.volver:hover {
+    text-decoration: underline;
+}
